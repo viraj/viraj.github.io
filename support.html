@@ -9,16 +9,23 @@
   </style>
   <div class="container">
   <h2>SUPPORT INQUIRY</h2>
-  <form id="my-form"
-  action="https://formspree.io/xpzjwnal"
-  method="POST"
->
-  <label>Email:</label>
-  <input type="email" name="email" />
-  <label>Message:</label>
-  <input type="text" name="message" />
-  <button id="my-form-button">Submit</button>
-  <p id="my-form-status"></p>
+  <form id="my-form" action="https://formspree.io/xpzjwnal" method="POST">
+    <div class="form-group">
+      <label>Your full name:</label>
+      <input type="full_name" name="full_name" />
+    </div>
+    <div class="form-group">
+      <label>Email:</label>
+      <input type="email" name="email" />
+    </div>
+    <div class="form-group">
+      <label>Message:</label>
+      <input type="text" name="message" />
+    </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    <div class="form-group">
+      <p id="my-form-status"></p>
+    </div>
 </form>
   </div>
 
